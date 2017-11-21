@@ -1,0 +1,47 @@
+.page-wrap{
+    background: #e72955;
+    padding: 30px 0;
+}
+.user-con{
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+}
+.user-con .user-title{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color: #777;
+    border-bottom: 1px solid #999;
+}
+.user-con .user-box{
+    margin-top: 20px;
+}
+.user-con .user-box .error-item{
+    position: relative;
+}
+.user-con .user-box .error-icon{
+    position: absolute;
+    color: red;
+    top: 50%;
+    left: 5px;
+    font-size: 14px;
+    margin-top: -6px;
+}
+.user-con .user-box .error-item .error-msg{
+    color: red;
+    background: pink;
+    border: 1px solid red;
+    padding: 3px 20px;
+}.nav-simple{
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+}
+.nav-simple .logo{
+    font-size: 26px;
+    font-weight: bold;
+    color: #c60023;
+}

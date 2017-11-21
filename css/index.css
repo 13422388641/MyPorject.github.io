@@ -1,0 +1,281 @@
+/* list菜单 */
+.list-wrap{
+    float: left;
+    width: 200px;
+    height: 362px;
+    background: #CD3333;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 34px;
+    color: #fff;
+    margin-right: 8px;
+    -webkit-box-shadow: 10px 10px 5px #999;
+            box-shadow: 10px 10px 5px #999;
+    opacity: 0.8;
+}
+
+.list-wrap .list-con .list-item .link{
+    color: #fff;
+    margin-right: 2px;
+    font-weight: bold;
+    padding:4px 6px;
+}
+.list-wrap .list-con .list-item .link:hover{
+    background: #CDCD00;
+}
+/* banner区 */
+.list-box{
+
+}
+.banner-wrap{
+    float: left;
+    width: 850px;
+    background: #fff;
+    height: 380px;
+    position: relative;
+    border: 1px solid #777;
+}
+.banner-wrap .loading{
+    margin-top: 170px;
+}
+.banner-wrap .banner-con #left-btn,.banner-wrap .banner-con #right-btn{
+    position: absolute;
+    padding: 10px 5px;
+    font-size: 34px;
+    background: #fff;
+    opacity: 0.7;
+    top: 40%;
+    border: 1px #eee solid;
+    border-radius: 2px;
+}
+.banner-wrap .banner-con #left-btn{
+    left: 2%;
+}
+.banner-wrap .banner-con #right-btn{
+    right: 2%;
+}
+.banner-wrap .banner-con #left-btn:hover{
+    opacity: 0.6;
+}
+.banner-wrap .banner-con #right-btn:hover{
+    opacity: 0.6;
+}
+.banner-wrap .banner-con #banner-list{
+    position: absolute;
+    bottom: 5%;
+    left: 42%;
+}
+.banner-wrap .banner-con #banner-list .pic-item{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+    border-radius: 50%;
+    background: #fff;
+}
+/* floor */
+.floor{
+    margin-top: 20px;
+    margin-right: -10px;
+}
+.floor li{
+    overflow: hidden;
+}
+.floor .floor-title{
+    color: #FFC125;
+    border-bottom: 2px solid #FFC125;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+/* 楼层标题颜色 */
+.floor li:nth-child(2) .floor-title{
+     color: #8DB6CD;
+     border-bottom: 2px solid #8DB6CD;
+}
+.floor li:nth-child(3) .floor-title{
+    color: #B452CD;
+    border-bottom: 2px solid #B452CD;
+}
+.floor li:nth-child(4) .floor-title{
+    color: #90EE90;
+    border-bottom: 2px solid  #90EE90;
+}
+.floor li:nth-child(5) .floor-title{
+    color: #7A378B;
+    border-bottom: 2px solid  #7A378B;
+}
+.floor .floor-list{
+    float: left;
+    border-radius: 5px;
+}
+.floor .floor-list .floor-item{
+    display: block;
+    width: 198px;
+    height: 220px;
+    position: relative;
+    padding: 5px;
+    background: #fff;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 1px 1px 2px #ddd inset;
+            box-shadow: 1px 1px 2px #ddd inset;
+}
+.floor .floor-list .floor-item .item-title {
+    font-size: 16px;
+    color: #878787;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+.floor .floor-list .floor-item img{
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    width: 70%;
+    height: 70%;
+}
+.floor .gifBanner{
+    margin-top: 20px;
+}
+.floor .gifBanner:hover{
+    cursor: pointer;
+}
+.floor .gifBanner img{
+    width: 100%;
+}
+/* 左则楼层 */
+.floor-side{
+    position: fixed;
+    top: 50%;
+    left: 8%;
+    text-align: center;
+    opacity: 0;
+}
+.floor-side .floor-side-list .floor-side-item{
+    border: solid 1px #fff;
+    background: #999;
+}
+.floor-side .floor-side-list .floor-side-item .link{
+    display: block;
+    padding: 4px 6px;
+    color: #fff;
+}
+.floor-side #top-btn{
+    font-size: 12px;
+}
+/* 右则则购物车悬浮框 */
+.right-said-wrap{
+    position: fixed;
+    top: 0;
+    right: 0;
+    font-size: 14px;
+    width: 26px;
+    height: 100%;
+    background: #333;
+    text-align: center;
+}
+.right-said-wrap .right-item{
+    line-height: 1.5em;
+    border-top: 1px solid #ccc;
+}
+.right-said-wrap .right-item.item-cart{
+    margin-top: 80px;
+    border-bottom: 1px solid #ccc;
+}
+.right-said-wrap .right-item:hover{
+    background: #c60023;
+}
+.right-said-wrap .right-item.item-footer{
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+.right-said-wrap .right-item a,.item-footer-p{
+    display: block;
+    padding: 20px 0;
+    text-decoration: none;
+    color: #fff;
+}
+.right-said-wrap .right-item .item-fotter-list{
+    position: absolute;
+    left: -120px;
+    top: 0;
+    border: 1px solid #eee;
+}
+.right-said-wrap .right-item .item-fotter-list li{
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    width: 96px;
+}
+.right-said-wrap .right-item .item-fotter-list li a{
+    padding: 0;
+    position: relative;
+}
+.right-said-wrap .right-item .item-fotter-list li a span{
+    position: relative;
+    top: 10px;
+}
+.right-said-wrap .right-item .item-fotter-list img{
+    width: 96px;
+}
+.right-said-wrap .right-item .shopping-bar{
+    font-size: 16px;
+}
+/* 通用头部 */
+.header-box{
+
+}
+.header .logo{
+    position: absolute;
+    display: block;
+    font-size: 36px;
+    color: #c60023;
+    font-weight: bold;
+    margin: 20px;
+}
+.header .search{
+    width: 550px;
+    margin: 25px 300px;
+}
+.header .search .search-cont{
+    width: 450px;
+    font-size: 15px;
+    border: 2px solid #c60023;
+    padding: 10px 5px;
+    color: #7f7f7f;
+    outline:none;
+}
+.header .search .search-btn{
+    position: absolute;
+    height: 42px;
+}.nav{
+    background: #eee;
+    height: 30px;
+    line-height: 30px;
+    font-size: 13px;
+}
+
+/* 用户部分 */
+.nav .user{
+    float: left;
+}
+.nav .user .link{
+    margin-right: 5px;
+}
+.nav .user.login{
+    display: none;
+}
+/* 导航部分 */
+.nav .nav-list{
+    float: right;
+}
+.nav .nav-list .link{
+    margin-left: 5px;
+    display: inline-block;
+}
+.nav-item{
+    float: right;
+    margin-left: 5px;
+}
+.nav-item .cart-cont{
+    color: #c60023;
+}
