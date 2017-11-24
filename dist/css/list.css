@@ -1,21 +1,4 @@
-.pagiantion{
-    margin-top: 20px;
-    text-align: center;
-}
-.active{
-    color: #c60023;
-}
-.pagiantion input{
-    padding: 2px 8px;
-}
-.pagiantion .pagiantion-pageNum{
-    margin-left: 20px;
-    color: #999;
-    font-size: 14px;
-}
-.pagiantion .pagiantion-lastPage{
-    font-size: 14px;
-}/* 排序按选项 */
+/* 排序按选项 */
 .sort-list{
     margin-top: 20px;
     overflow: hidden;
@@ -124,7 +107,24 @@
     padding: 10px;
     border: 1px dashed #999;
 }
-/* 通用头部 */
+.pagiantion{
+    margin-top: 20px;
+    text-align: center;
+}
+.active{
+    color: #c60023;
+}
+.pagiantion input{
+    padding: 2px 8px;
+}
+.pagiantion .pagiantion-pageNum{
+    margin-left: 20px;
+    color: #999;
+    font-size: 14px;
+}
+.pagiantion .pagiantion-lastPage{
+    font-size: 14px;
+}/* 通用头部 */
 .header-box{
 
 }

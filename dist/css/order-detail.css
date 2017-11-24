@@ -114,6 +114,27 @@
     color: #999;
     padding: 10px;
     border: 1px dashed #999;
+}.nav-con{
+    background: #F6F6F6;
+}
+.nav-side{
+    float: left;
+    width: 130px;
+    color: #888;
+    min-height: 100px;
+    margin-top :20px;
+}
+.content.width-nav{
+    float: left;
+    width: 930px;
+}
+.nav-side .navside-item{
+    line-height: 25px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.navside-item .link.active{
+    color: #c60023;
 }/* 通用头部 */
 .header-box{
 
@@ -141,27 +162,6 @@
 .header .search .search-btn{
     position: absolute;
     height: 42px;
-}.nav-con{
-    background: #F6F6F6;
-}
-.nav-side{
-    float: left;
-    width: 130px;
-    color: #888;
-    min-height: 100px;
-    margin-top :20px;
-}
-.content.width-nav{
-    float: left;
-    width: 930px;
-}
-.nav-side .navside-item{
-    line-height: 25px;
-    font-size: 13px;
-    font-weight: bold;
-}
-.navside-item .link.active{
-    color: #c60023;
 }.nav{
     background: #eee;
     height: 30px;

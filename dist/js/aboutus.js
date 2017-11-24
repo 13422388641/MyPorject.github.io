@@ -42,7 +42,7 @@ var _user = {
     //找回密码-用户名验证
     passResetAnswer : function(data , suc , err ){
         _mm.request({
-            url     : _mm.getServerUrl(' /user/forget_check_answer.do'),
+            url     : _mm.getServerUrl('test.happymmall.com/user/forget_check_answer.do'),
             medth   : 'POST',
             data    : data,
             success : suc,
@@ -52,7 +52,7 @@ var _user = {
     //找回密码-用户名验证
     newPass         : function(data , suc , err ){
         _mm.request({
-            url     : _mm.getServerUrl(' /user/forget_reset_password.do'),
+            url     : _mm.getServerUrl('test.happymmall.com/user/forget_reset_password.do'),
             medth   : 'POST',
             data    : data,
             success : suc,
@@ -62,7 +62,7 @@ var _user = {
     //获取用户信息
     getUserInfo     : function( suc , err ){
         _mm.request({
-            url     : _mm.getServerUrl('/user/get_information.do'),
+            url     : _mm.getServerUrl('test.happymmall.com/user/get_information.do'),
             medth   : 'POST',
             success : suc,
             error   : err
@@ -71,7 +71,7 @@ var _user = {
     //登陆
     login : function(formValue , suc , err ){
         _mm.request({
-            url     : _mm.getServerUrl('/user/login.do'),
+            url     : _mm.getServerUrl('test.happymmall.com/user/login.do'),
             medth   : 'POST',
             data    : formValue,
             success : suc,
@@ -81,7 +81,7 @@ var _user = {
     //登出
     logout : function( suc , err ){
         _mm.request({
-            url     : _mm.getServerUrl('/user/logout.do'),
+            url     : _mm.getServerUrl('test.happymmall.com/user/logout.do'),
             medth   : 'POST',
             success : suc,
             error   : err
