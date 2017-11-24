@@ -1,0 +1,133 @@
+.content.width-nav{
+    padding: 10px;
+    margin-top: 20px;
+    background: #fff;
+    color: #555;
+}
+.cont-userdata{
+    overflow: hidden;
+}
+.content.width-nav .cont-title{
+    line-height: 50px;
+    font-size: 16px;
+    border-bottom: 1px solid #E8E8E8;
+    color: #888;
+}
+.content.width-nav .cont-userinfo{
+    margin-top: 30px;
+    line-height: 40px;
+    overflow: hidden;
+}
+.cont-userinfo .cont-userinfo-item{
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    width: 600px;
+    margin: 0 auto;
+}
+.cont-userinfo .cont-userinfo-item .cont-userinfo-title{
+    display: inline-block;
+    color: #3D3D3D;
+    font-weight: bold;
+    line-height: 40px;
+    width: 100px;
+}
+.cont-userinfo .cont-userinfo-item .cont-userinfo-data{
+    color: black;
+    padding: 5px 10px;
+    width: 180px;
+}
+.cont-userinfo .cont-userinfo-item input{
+    color: black;
+    border: 1px dashed #999;
+}
+.userinfo-btn{
+    margin-top: 20px;
+    margin-left: 350px;
+}
+#passwordRepeat-errTips,#passwordNew-errTips{
+    color: red;
+    position: absolute;
+    right: 0;
+   display: none;
+}
+/* 通用头部 */
+.header-box{
+
+}
+.header .logo{
+    position: absolute;
+    display: block;
+    font-size: 36px;
+    color: #c60023;
+    font-weight: bold;
+    margin: 20px;
+}
+.header .search{
+    width: 550px;
+    margin: 25px 300px;
+}
+.header .search .search-cont{
+    width: 450px;
+    font-size: 15px;
+    border: 2px solid #c60023;
+    padding: 10px 5px;
+    color: #7f7f7f;
+    outline:none;
+}
+.header .search .search-btn{
+    position: absolute;
+    height: 42px;
+}.nav-con{
+    background: #F6F6F6;
+}
+.nav-side{
+    float: left;
+    width: 130px;
+    color: #888;
+    min-height: 100px;
+    margin-top :20px;
+}
+.content.width-nav{
+    float: left;
+    width: 930px;
+}
+.nav-side .navside-item{
+    line-height: 25px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.navside-item .link.active{
+    color: #c60023;
+}.nav{
+    background: #eee;
+    height: 30px;
+    line-height: 30px;
+    font-size: 13px;
+}
+
+/* 用户部分 */
+.nav .user{
+    float: left;
+}
+.nav .user .link{
+    margin-right: 5px;
+}
+.nav .user.login{
+    display: none;
+}
+/* 导航部分 */
+.nav .nav-list{
+    float: right;
+}
+.nav .nav-list .link{
+    margin-left: 5px;
+    display: inline-block;
+}
+.nav-item{
+    float: right;
+    margin-left: 5px;
+}
+.nav-item .cart-cont{
+    color: #c60023;
+}
