@@ -434,7 +434,7 @@ var _address   = {
     //获取购物车数量
     getAddressList : function( data, suc , err ){
         _mm.request({
-            url     : _mm.getServerUrl('.com/shipping/list.do'),
+            url     : _mm.getServerUrl('/shipping/list.do'),
             data    : data,
             success : suc,
             error   : err
